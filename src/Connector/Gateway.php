@@ -1,8 +1,6 @@
 <?php
 namespace tinymeng\code\Connector;
 
-use tinymeng\tools\Strings;
-
 /**
  * Class Name: Gateway
  * @author Tinymeng <666@majiameng.com>

@@ -1,7 +1,7 @@
 <?php
 namespace tinymeng\code;
 
-use \tinymeng\tools\Strings;
+use \tinymeng\tools\StringTool;
 /**
  * Class Name: PHP 生成二维码Code类
  * @author Tinymeng <666@majiameng.com>
@@ -25,7 +25,7 @@ class Generate
      */
     protected static function init($gateway, $config = null)
     {
-        $class = __NAMESPACE__ . '\\Gateways\\' . Strings::uFirst($gateway);
+        $class = __NAMESPACE__ . '\\Gateways\\' . StringTool::uFirst($gateway);
         if (class_exists($class)) {
             $app = new $class($config);
             return $app;
