@@ -9,9 +9,7 @@
 </p>
 
 
-
 ### Install
-
 ```
 composer require tinymeng/code v1.0 -vvv
 ```
@@ -34,9 +32,6 @@ $generate->create("123456789");
 //var_dump($file_path);
 ```
 
-
-```php
-```
 
 ### 二维码生成
 ```
