@@ -1,9 +1,19 @@
-# php生成条形码或者二维码
+<h1 align="center">php生成条形码或者二维码</h1>
+<p align="center">
+<a href="https://scrutinizer-ci.com/g/majiameng/QrCode-php/?branch=master"><img src="https://scrutinizer-ci.com/g/majiameng/QrCode-php/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="https://scrutinizer-ci.com/g/majiameng/QrCode-php/build-status/master"><img src="https://scrutinizer-ci.com/g/majiameng/QrCode-php/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://packagist.org/packages/tinymeng/code"><img src="https://poser.pugx.org/tinymeng/code/v/stable" alt="Latest Stable Version"></a>
+<a href="https://github.com/majiameng/QrCode-php/tags"><img src="https://poser.pugx.org/tinymeng/code/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/tinymeng/code"><img src="https://poser.pugx.org/tinymeng/code/v/unstable" alt="Latest Unstable Version"></a>
+<a href="https://github.com/majiameng/QrCode-php/blob/master/LICENSE"><img src="https://poser.pugx.org/tinymeng/code/license" alt="License"></a>
+</p>
+
+
 
 ### Install
 
 ```
-composer require tinymeng/code dev-master -vvv
+composer require tinymeng/code v1.0 -vvv
 ```
 
 > 类库使用的命名空间为`\\tinymeng\\code`
